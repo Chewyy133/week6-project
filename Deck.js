@@ -1,5 +1,4 @@
-
-import Card from './Card.js';
+import Card from "./Card.js";
 
 export default class Deck {
     cards = []
@@ -35,7 +34,6 @@ export default class Deck {
 //const newDeck = new Deck();
 
 //newDeck.shuffleCards()
-//console.log('card dealt is:',newDeck.dealCard())
-
+//console.log('card dealt is: ',newDeck.dealCard())
 
 //console.log(newDeck.checkCards())

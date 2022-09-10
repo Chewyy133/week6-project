@@ -1,10 +1,10 @@
- 
 
- class Player {
+
+ export default class Player {
     hand = []
     score = 0
     constructor(name) {
-        this.name = name
+        this.name = name    
     }
     getPlayerName() {
         return `${this.name}`
@@ -28,6 +28,3 @@
         return this.score
     }
  }
-
-
-
